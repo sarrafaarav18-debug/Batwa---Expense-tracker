@@ -1,0 +1,10 @@
+{
+  "appId": "com.batwa.app",
+  "appName": "Batwa",
+  "webDir": "www",
+  "plugins": {
+    "LocalNotifications": {
+      "iconColor": "#14312B"
+    }
+  }
+}

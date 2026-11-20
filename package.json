@@ -1,0 +1,23 @@
+{
+  "name": "batwa",
+  "version": "1.0.0",
+  "description": "Batwa - offline daily expense, income and loan tracker",
+  "private": true,
+  "scripts": {
+    "assets": "capacitor-assets generate --android",
+    "add:android": "cap add android",
+    "sync": "cap sync android",
+    "open": "cap open android",
+    "run:android": "cap run android",
+    "setup": "npm install && cap add android && npm run assets && cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.0.0",
+    "@capacitor/core": "^7.0.0",
+    "@capacitor/local-notifications": "^7.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^7.0.0"
+  }
+}
